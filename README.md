@@ -1,4 +1,4 @@
-# spruced-vue
+# Spruced Vue [Front End]
 
 > A Vue.js project
 
