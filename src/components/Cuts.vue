@@ -1,19 +1,38 @@
 <template>
   <div class="header">
     <h3 class="spruced-title">{{ messagetitle }}</h3>
-    {{ cuts }}
+    <div id="app1">
+      <v-client-table :columns="columns" :data="cuts" :options="options">
+      </v-client-table>
+    </div>
   </div>
 </template>
 
 <script>
+import Vue from 'vue'
+import VueTables from 'vue-tables-2'
+
 import CutService from '@/services/cutservice'
+
+Vue.use(VueTables.ClientTable, {compileTemplates: true, filterByColumn: true})
 export default {
   name: 'Cuts',
   data () {
     return {
       messagetitle: ' Cuts Showcase ',
       cuts: [],
-      errors: []
+      errors: [],
+      columns: ['_id', 'cutType', 'cutPrice', 'cutDate', 'barberName', 'likes'],
+      options: {
+        headings: {
+          _id: 'ID',
+          cutType: 'Haircut',
+          cutPrice: 'Amount',
+          cutDate: 'Date',
+          barberName: 'Barber',
+          likes: 'Likes'
+        }
+      }
     }
   },
   // Fetches Cuts when the component is created.
