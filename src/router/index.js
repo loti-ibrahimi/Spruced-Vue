@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import Cuts from '@/components/Cuts'
 import Barbers from '@/components/Barbers'
+import Cut from '@/components/Cut'
+import Barber from '@/components/Barber'
 import About from '@/components/About'
 import Contact from '@/components/Contact'
 
@@ -34,6 +36,16 @@ export default new Router({
       path: '/contact',
       name: 'Contact',
       component: Contact
+    },
+    {
+      path: '/cut',
+      name: 'Cut',
+      component: Cut
+    },
+    {
+      path: '/barber',
+      name: 'Barber',
+      component: Barber
     }
   ]
 })

@@ -9,6 +9,8 @@
           <b-nav-item to="/#"><i class="fa fa-home" style="padding: 5px"> Home</i></b-nav-item>
           <b-nav-item to="/cuts"><i class="fa fa-scissors" style="padding: 5px"> View Cuts </i></b-nav-item>
           <b-nav-item to="/barbers"><i class="fa fa-users" style="padding: 5px"> View Barbers </i></b-nav-item>
+          <b-nav-item to="/cut"><i class="fa fa-plus" style="padding: 5px"> Add Cut </i></b-nav-item>
+          <b-nav-item to="/barber"><i class="fa fa-plus" style="padding: 5px"> Add Barber </i></b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-item to="/about"><i class="fa fa-info" style="padding: 5px"> About Us </i></b-nav-item>

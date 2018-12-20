@@ -12,9 +12,9 @@
 <script>
 import Vue from 'vue'
 import VueTables from 'vue-tables-2'
-
 import CutService from '@/services/cutservice'
 
+// Vue Table
 Vue.use(VueTables.ClientTable, {compileTemplates: true, filterByColumn: true})
 export default {
   name: 'Cuts',
