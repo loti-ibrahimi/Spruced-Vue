@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <h3 class="spruced-title">{{ messagetitle }}</h3>
+    <h3 class="cuts-title">{{ messagetitle }}</h3>
     <img src="../assets/barbershop.png" alt="description here" />
     <div id="app1">
       <v-client-table :columns="columns" :data="cuts" :options="options">
@@ -58,7 +58,7 @@ export default {
 </script>
 
 <style scoped>
-  .spruced-title {
+  .cuts-title {
     margin-top: 40px;
     text-align: center;
     font-size: 20pt;
