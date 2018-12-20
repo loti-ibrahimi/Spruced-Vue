@@ -36,11 +36,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  padding-top: 20px;
+  /*background: url("./assets/spruced-background.jpg");*/
 }
-#app1 {
-  width: 80%;
-  margin: 40px auto;
-  text-align: center;
+.VueTables__sortable {
+  cursor: pointer;
 }
 </style>
