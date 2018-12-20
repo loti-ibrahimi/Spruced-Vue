@@ -5,11 +5,13 @@
       <div class="row justify-content-center">
         <div class="col-md-6">
           <form @submit.prevent="upload">
+            <!--Enter Cut Type -->
             <div class="form-group" :class="{ 'form-group--error': $v.cutType.$error }">
               <label class="form-control-label" name="CutType"> Cut Type </label>
               <input class="form__input" type="text" v-model.trim="cutType"/>
             </div>
-            <div class="error" v-if="!$v.cutType.required"> Cut Description Required </div>
+            <div class="error" v-if="!$v.cutType.required"> Cut Description Required* </div>
+            <!--Select Cut Price from 3 options-->
             <div class="form-group">
               <label class="form-label"> Select Cut Price </label>
               <select id="cutPrice" name="cutPrice" class="form-control" type="text" v-model="cutPrice">
@@ -19,16 +21,20 @@
                 <option value="15"> €15 </option>
               </select>
             </div>
+            <div class="error" v-if="!$v.cutPrice.required"> Cut Price Required* </div>
+            <!--Enter Barber Name-->
             <div class="form-group" :class="{ 'form-group--error': $v.barberName.$error }">
               <label class="form-control-label" name="barberName" type="text"> Barber Name </label>
               <input class="form__input" v-model.trim="$v.barberName.$model"/>
             </div>
             <div class="error" v-if="!$v.barberName.required"> Barber Name Required* </div>
+            <!--Enter Date of Cut (In the format shown)-->
             <div class="form-group" :class="{ 'form-group--error': $v.cutDate.$error }">
               <label class="form__label" name="cutDate" type="text"> Date of Cut (dd.mm.yyyy) </label>
               <input class="form__input" v-model.trim="$v.cutDate.$model"/>
             </div>
             <div class="error" v-if="!$v.cutDate.required"> Date Required* </div>
+            <!--Upload Button-->
             <p>
               <button class="btn btn-primary btn1" type="submit" :disabled="uploadStatus === 'PENDING'"> Post Cut </button>
             </p>
@@ -67,7 +73,7 @@ export default {
     return {
       messagetitle: 'Upload Cut ',
       cutType: '',
-      cutPrice: 0,
+      cutPrice: '',
       cutDate: '',
       barberName: '',
       likes: 0,
@@ -83,6 +89,9 @@ export default {
       required
     },
     cutDate: {
+      required
+    },
+    cutPrice: {
       required
     }
   },
