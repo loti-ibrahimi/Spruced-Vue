@@ -1,6 +1,21 @@
 <template>
   <div class="header">
-    <h3 class="spruced-title">{{messagetitle}}</h3>
+    <h3 class="about-title">{{messagetitle}}</h3>
+    <table align="center">
+      <tr>
+        <td>
+          <p class="lead"><b><i>  </i></b>
+          <p> We're Spruced, a creative platform that allows different barbers to showcase their skills. </p>
+          <p> This is a dedicated portfolio platform for new and old barbers to gain some recognition. </p>
+          <p> Although in a starting phase, the main goal is to have a multifunctional space, with your very own barber
+            profiles & personal albums of uploaded cuts. </p>
+          <p> <img src="../assets/Spruced-logo.png" alt="description here" /> </p>
+        </td>
+        <td>
+        </td>
+      </tr>
+    </table>
+
   </div>
 </template>
 
@@ -9,17 +24,18 @@ export default {
   name: 'About',
   data () {
     return {
-      messagetitle: ' About Us '
+      messagetitle: ' Welcome! '
     }
   }
 }
 </script>
 
 <style scoped>
-  .spruced-title {
-    margin-top: 30px;
+  .about-title {
+    margin-top: 40px;
     text-align: center;
-    font-size: 30pt;
+    font-size: 20pt;
+    font-weight: 800;
     margin-bottom: 10px;
   }
 </style>

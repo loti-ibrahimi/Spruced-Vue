@@ -13,8 +13,8 @@
           <b-nav-item to="/barber"><i class="fa fa-plus" style="padding: 5px"> Add Barber </i></b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
-          <b-nav-item to="/about"><i class="fa fa-info" style="padding: 5px"> About Us </i></b-nav-item>
-          <b-nav-item to="/contact"><i class="fa fa-phone" style="padding: 5px"> Contact Us </i></b-nav-item>
+          <b-nav-item to="/about"><i class="fa fa-info-circle" style="padding: 5px"> About Us </i></b-nav-item>
+          <b-nav-item to="/contact"><i class="fa fa-phone-square" style="padding: 5px"> Contact Us </i></b-nav-item>
           <i class="fa fa-globe fa-2x" style="padding: 5px; color: white;"></i>
         </b-navbar-nav>
       </b-collapse>
