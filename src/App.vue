@@ -37,7 +37,8 @@ export default {
   margin-top: 60px;
 }
 #app1 {
-  width: 60%;
-  margin: 0 auto;
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
 }
 </style>
