@@ -1,6 +1,7 @@
 <template>
   <div class="header">
-    <h3 class="spruced-title">{{messagetitle}}</h3>
+    <h3 class="spruced-title">{{ messagetitle }}</h3>
+    {{ cuts }}
   </div>
 </template>
 
