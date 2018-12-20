@@ -1,4 +1,8 @@
-# spruced-vue
+# Spruced Vue [Front End]
+### Creator: Loti Ibrahimi 
+### Student Number: 20015453
+
+
 
 > A Vue.js project
 
@@ -28,4 +32,4 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-"# Spruced-Vue" 
+
