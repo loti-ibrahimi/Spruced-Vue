@@ -43,6 +43,8 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 Repository Link:
 https://github.com/loti-ibrahimi/Spruced
 
+# Functionality & DX 
+
  ## References 
  The base code structure was created with the help of David Drohans [Web App Development 2 (Vue.js lab tutorials)](https://ddrohan.github.io/wit-wad-2-2018/topic02-wad/index.html).
 
