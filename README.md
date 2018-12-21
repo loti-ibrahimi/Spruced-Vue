@@ -80,6 +80,7 @@ Fictional contact details for the Spruced 'company'.
  ## References 
  The base code structure was created with the help of David Drohans [Web App Development 2 (Vue.js lab tutorials)](https://ddrohan.github.io/wit-wad-2-2018/topic02-wad/index.html).
 
-
+# Use Cases 
+![alt text](https://github.com/loti-ibrahimi/Spruced-Vue/blob/master/Spruced.png) 
 
 
