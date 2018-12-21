@@ -32,8 +32,8 @@ npm test
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 # Hosting 
-Firebase
-![alt text](https://github.com/loti-ibrahimi/Spruced-Vue/blob/master/firebase.jpeg) 
+### Firebase
+![alt text](https://github.com/loti-ibrahimi/Spruced-Vue/blob/master/firebase.png) 
 Link: https://spruced-vue.firebaseapp.com/#/#
 
 
