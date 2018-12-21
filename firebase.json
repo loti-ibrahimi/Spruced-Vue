@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "Spruced-Vue",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

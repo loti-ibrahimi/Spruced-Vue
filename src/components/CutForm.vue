@@ -54,7 +54,6 @@ import Vue from 'vue'
 import VueForm from 'vueform'
 import Vuelidate from 'vuelidate'
 import VueSweetalert from 'vue-sweetalert'
-import CutService from '@/services/cutservice'
 import { required } from 'vuelidate/lib/validators'
 
 // Vue Form
