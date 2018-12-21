@@ -4,6 +4,7 @@
 
 ## Home Page Preview
 ![alt text](https://github.com/loti-ibrahimi/Spruced-Vue/blob/master/Spruced-Homepage.png) 
+Preview of Web App (front-end) client testing - YouTube link: 
 
 > A Vue.js project
 
