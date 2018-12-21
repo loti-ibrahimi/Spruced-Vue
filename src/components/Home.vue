@@ -3,7 +3,7 @@
     <h1 class="spruced-title"> DISCOVER THE BEST BARBERS IN YOUR AREA </h1>
     <table align="center">
       <tr>
-        <td>
+        <td class="t-d">
           <p class="lead"><b><i> Barber Portfolio Platform </i></b>
           <p> Showcase your talents, gain recognition, meet other people.</p>
           <p> </p>
@@ -38,5 +38,12 @@
     font-size: 20pt;
     margin-bottom: 30px;
     font-weight: 800;
+    color: khaki;
+  }
+  .t-d {
+    color: white;
+  }
+  .lead {
+    color: khaki;
   }
 </style>

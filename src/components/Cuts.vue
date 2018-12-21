@@ -135,5 +135,6 @@ export default {
     font-size: 20pt;
     font-weight: 800;
     margin-bottom: 20px;
+    color: khaki;
   }
 </style>

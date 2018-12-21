@@ -4,12 +4,12 @@
     <table align="center">
       <tr>
         <td>
-          <p class="lead"><b><i>  </i></b>
+          <p class="lead"><b><i> </i></b>
           <p> We're Spruced, a creative platform that allows different barbers to showcase their skills. </p>
           <p> This is a dedicated portfolio platform for new and old barbers to gain some recognition. </p>
           <p> Although in a starting phase, the main goal is to have a multifunctional space, with your very own barber
             profiles & personal albums of uploaded cuts. </p>
-          <p> <img src="../assets/Spruced-logo.png" alt="description here" /> </p>
+          <p> <img src="../assets/neat.gif" alt="description here" /> </p>
         </td>
         <td>
         </td>
@@ -34,8 +34,12 @@ export default {
   .about-title {
     margin-top: 40px;
     text-align: center;
-    font-size: 20pt;
+    font-size: 30pt;
     font-weight: 800;
     margin-bottom: 10px;
+    color: khaki;
+  }
+  .header {
+   color: white;
   }
 </style>

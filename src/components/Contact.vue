@@ -11,6 +11,7 @@
           <p><i class="fa fa-instagram"></i> Spruced </p>
           <p><i class="fa fa-twitter"></i> Spruced </p>
           <p> </p>
+          <p> <img src="../assets/box.gif" alt="description here" /> </p>
         </td>
         <td>
         </td>
@@ -37,5 +38,9 @@ export default {
     font-size: 20pt;
     font-weight: 800;
     margin-bottom: 20px;
+    color: khaki;
+  }
+  .header {
+    color: white;
   }
 </style>

@@ -10,7 +10,7 @@
               <label class="form-control-label"> Barber Name </label>
               <input class="form__input" type="text" v-model.trim="barberName"/>
             </div>
-            <div class="error" v-if="!$v.barberName.required"> Barber Name Required* </div>
+            <div class="error" v-if="!$v.barberName.required"> (Barber Name Required*) </div>
             <!--Select Region from 32 County options-->
             <div class="form-group">
               <label class="form-label"> Select Region </label>
@@ -49,20 +49,20 @@
                 <option value="Wexford"> Wexford </option>
               </select>
             </div>
-            <div class="error" v-if="!$v.region.required"> Region Required* </div>
+            <div class="error" v-if="!$v.region.required"> (Region Required*) </div>
             <!--Enter Bio-->
             <div class="form-group" :class="{ 'form-group--error': $v.barberBio.$error }">
               <label class="form-control-label"> Bio </label>
               <input class="form__input" type="text" v-model.trim="$v.barberBio.$model"/>
             </div>
-            <div class="error" v-if="!$v.barberBio.required"> Barber Bio Required* </div>
+            <div class="error" v-if="!$v.barberBio.required"> (Barber Bio Required*) </div>
             <div class="error" v-if="!$v.barberBio.maxLength"> Bio can only have {{$v.barberBio.$params.maxLength.max}} characters.</div>
             <!--Enter Tel-->
             <div class="form-group" :class="{ 'form-group--error': $v.tel.$error }">
               <label class="form__label" name="tel" type="text"> Contact Number  </label>
               <input class="form__input" v-model.trim="$v.tel.$model"/>
             </div>
-            <div class="error" v-if="!$v.tel.required"> Contact Number Required* </div>
+            <div class="error" v-if="!$v.tel.required"> (Contact Number Required*) </div>
             <div class="error" v-if="!$v.tel.minLength"> Mobile Number must be {{$v.tel.$params.minLength.min}} characters.</div>
             <!--Create Button-->
             <p>
@@ -174,6 +174,7 @@ export default {
     font-size: 20pt;
     font-weight: 800;
     margin-bottom: 20px;
+    color: khaki;
   }
   #app1 {
     width: 95%;
@@ -225,5 +226,14 @@ export default {
   }
   .error:focus {
     outline-color: #ffa519;
+  }
+  .form-control-label{
+    color: khaki;
+  }
+  .form-label {
+    color: khaki;
+  }
+  .form-group {
+    color: khaki;
   }
 </style>

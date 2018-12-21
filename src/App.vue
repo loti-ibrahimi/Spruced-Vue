@@ -37,7 +37,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   padding-top: 20px;
-  /*background: url("./assets/spruced-background.jpg");*/
+  background: url("assets/Spruced-background.jpg") repeat center top;
 }
 .VueTables__sortable {
   cursor: pointer;
