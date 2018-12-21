@@ -1,4 +1,4 @@
-# Spruced Vue [Front End]
+# Spruced Vue [front-end]
 ### Creator: Loti Ibrahimi 
 ### Student Number: 20015453
 
@@ -39,8 +39,15 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ### Home Page Preview
 ![alt text](https://github.com/loti-ibrahimi/Spruced-Vue/blob/master/Spruced-Homepage.png) 
 
-# Server (Back-End) 
+# Server (back-end) 
+Repository Link:
 https://github.com/loti-ibrahimi/Spruced
+
+Server Link (Heroku Hosted): https://spruced.herokuapp.com/
+
+ ## References 
+ The base code structure was created with the help of David Drohans [Web App Development 2 (Vue.js lab tutorials)](https://ddrohan.github.io/wit-wad-2-2018/topic02-wad/index.html).
+
 
 
 
