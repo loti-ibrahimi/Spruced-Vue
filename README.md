@@ -36,4 +36,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ![alt text](https://github.com/loti-ibrahimi/Spruced-Vue/blob/master/firebase.png) 
 **Spruced - Web App Front-End Link:** https://spruced-vue.firebaseapp.com/#/#
 
+### Home Page Preview
+![alt text](https://github.com/loti-ibrahimi/Spruced-Vue/blob/master/Spruced-Homepage.png) 
+
 
