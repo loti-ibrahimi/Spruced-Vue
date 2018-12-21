@@ -77,7 +77,7 @@ Contains some more details about the Spruced Web App.
 ## Contact Us:
 Fictional contact details for the Spruced 'company'. 
 
-# Use Cases: 
+# Diagram - Use Cases: 
 ![alt text](https://github.com/loti-ibrahimi/Spruced-Vue/blob/master/Spruced.png) 
 
 # Database Schemas:
