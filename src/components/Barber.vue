@@ -11,7 +11,7 @@
               <input class="form__input" type="text" v-model.trim="barberName"/>
             </div>
             <div class="error" v-if="!$v.barberName.required"> Barber Name Required* </div>
-            <!--Select Region from 32 options-->
+            <!--Select Region from 32 County options-->
             <div class="form-group">
               <label class="form-label"> Select Region </label>
               <select id="region" name="Region" class="form-control" type="text" v-model="region">
@@ -63,6 +63,7 @@
               <input class="form__input" v-model.trim="$v.tel.$model"/>
             </div>
             <div class="error" v-if="!$v.tel.required"> Contact Number Required* </div>
+            <div class="error" v-if="!$v.tel.minLength"> Mobile Number must be {{$v.tel.$params.minLength.min}} characters.</div>
             <!--Create Button-->
             <p>
               <button class="btn btn-primary btn1" type="submit" :disabled="uploadStatus === 'PENDING'"> Create Profile </button>
@@ -84,7 +85,7 @@ import VueForm from 'vueform'
 import Vuelidate from 'vuelidate'
 import VueSweetalert from 'vue-sweetalert'
 import BarberService from '@/services/barberservice'
-import { required, maxLength } from 'vuelidate/lib/validators'
+import { required, maxLength, minLength } from 'vuelidate/lib/validators'
 
 // Vue Form
 Vue.use(VueForm, {
@@ -119,10 +120,11 @@ export default {
     },
     barberBio: {
       required,
-      maxLength: maxLength(100)
+      maxLength: maxLength(60)
     },
     tel: {
-      required
+      required,
+      minLength: minLength(11)
     }
   },
   methods: {

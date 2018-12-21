@@ -71,7 +71,7 @@ export default {
   name: 'Cut',
   data () {
     return {
-      messagetitle: 'Upload Cut ',
+      messagetitle: ' Add Cut Details ',
       cutType: '',
       cutPrice: '',
       cutDate: '',

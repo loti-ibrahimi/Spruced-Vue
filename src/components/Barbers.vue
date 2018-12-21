@@ -15,8 +15,9 @@
 <script>
 import Vue from 'vue'
 import VueTables from 'vue-tables-2'
-
 import BarberService from '@/services/barberservice'
+
+// Vue Table
 Vue.use(VueTables.ClientTable, {compileTemplates: true, filterByColumn: true})
 export default {
   name: 'Barbers',
@@ -65,6 +66,16 @@ export default {
         .then(response => {
           this.loadBarbers()
           console.log(response)
+        })
+        .catch(error => {
+          this.errors.push(error)
+          console.log(error)
+        })
+    },
+    deleteBarber: function (id) {
+      BarberService.deleteBarber(id)
+        .then(response => {
+          this.loadBarbers()
         })
         .catch(error => {
           this.errors.push(error)

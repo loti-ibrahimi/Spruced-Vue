@@ -9,9 +9,9 @@ export default {
       { headers: {'Content-type': 'application/json'} })
   },
   likeBarber (id) {
-    return Api().put(`/cuts/${id}/likes`)
+    return Api().put(`/barbers/${id}/likes`)
   },
   deleteBarber (id) {
-    return Api().delete(`/cuts/${id}`)
+    return Api().delete(`/barbers/${id}`)
   }
 }
