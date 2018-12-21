@@ -26,7 +26,7 @@ export default {
       messagetitle: ' Cuts Showcase ',
       cuts: [],
       errors: [],
-      columns: ['_id', 'cutType', 'cutPrice', 'cutDate', 'barberName', 'likes', 'like', 'remove'],
+      columns: ['_id', 'cutType', 'cutPrice', 'cutDate', 'barberName', 'likes', 'like', 'edit', 'remove'],
       options: {
         perPage: 8,
         sortable: ['like'],
@@ -71,6 +71,10 @@ export default {
           this.errors.push(error)
           console.log(error)
         })
+    },
+    editCut: function (id) {
+      this.$router.params = id
+      this.$router.push('edit')
     },
     deleteCut: function (id) {
       CutService.deleteCut(id)

@@ -26,7 +26,7 @@ export default {
       messagetitle: ' Barber Showcase ',
       barbers: [],
       errors: [],
-      columns: ['_id', 'barberName', 'barberBio', 'tel', 'region', 'likes', 'like', 'remove'],
+      columns: ['_id', 'barberName', 'barberBio', 'tel', 'region', 'likes', 'like', 'edit', 'remove'],
       options: {
         perPage: 8,
         sortable: ['like'],

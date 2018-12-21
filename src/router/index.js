@@ -7,6 +7,7 @@ import Cut from '@/components/Cut'
 import Barber from '@/components/Barber'
 import About from '@/components/About'
 import Contact from '@/components/Contact'
+import EditCut from '@/components/EditCut'
 
 Vue.use(Router)
 
@@ -46,6 +47,12 @@ export default new Router({
       path: '/barber',
       name: 'Barber',
       component: Barber
+    },
+    {
+      path: '/edit',
+      name: 'EditCut',
+      component: EditCut,
+      props: true
     }
   ]
 })
