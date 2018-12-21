@@ -2,6 +2,9 @@
 ### Creator: Loti Ibrahimi 
 ### Student Number: 20015453
 
+## Home Page Preview
+![alt text](https://github.com/loti-ibrahimi/Spruced-Vue/blob/master/Spruced-Homepage.png) 
+
 > A Vue.js project
 
 ## Build Setup
@@ -31,19 +34,14 @@ npm test
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-# Client (Front-End)
-### Web App Hosted using Firebase 
+## Client (front-end)
+### Web App was hosted using Firebase: https://firebase.google.com/ 
 ![alt text](https://github.com/loti-ibrahimi/Spruced-Vue/blob/master/firebase.png) 
 **Spruced - Web App Front-End Link:** https://spruced-vue.firebaseapp.com/#/#
 
-### Home Page Preview
-![alt text](https://github.com/loti-ibrahimi/Spruced-Vue/blob/master/Spruced-Homepage.png) 
-
-# Server (back-end) 
+## Server (back-end) 
 Repository Link:
 https://github.com/loti-ibrahimi/Spruced
-
-Server Link (Heroku Hosted): https://spruced.herokuapp.com/
 
  ## References 
  The base code structure was created with the help of David Drohans [Web App Development 2 (Vue.js lab tutorials)](https://ddrohan.github.io/wit-wad-2-2018/topic02-wad/index.html).
