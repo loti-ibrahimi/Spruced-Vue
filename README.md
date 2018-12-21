@@ -35,7 +35,7 @@ npm test
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 ## Client (front-end)
-### Web App was hosted using Firebase: https://firebase.google.com/ 
+### This Web App was hosted using Firebase: https://firebase.google.com/ 
 ![alt text](https://github.com/loti-ibrahimi/Spruced-Vue/blob/master/firebase.png) 
 - Spruced - Web App Front-End Link: https://spruced-vue.firebaseapp.com/#/#
 - Preview of Web App (front-end) client testing - YouTube link: 
