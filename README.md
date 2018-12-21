@@ -4,7 +4,6 @@
 
 ## Home Page Preview
 ![alt text](https://github.com/loti-ibrahimi/Spruced-Vue/blob/master/Spruced-Homepage.png) 
-Preview of Web App (front-end) client testing - YouTube link: 
 
 > A Vue.js project
 
@@ -38,7 +37,8 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ## Client (front-end)
 ### Web App was hosted using Firebase: https://firebase.google.com/ 
 ![alt text](https://github.com/loti-ibrahimi/Spruced-Vue/blob/master/firebase.png) 
-**Spruced - Web App Front-End Link:** https://spruced-vue.firebaseapp.com/#/#
+- Spruced - Web App Front-End Link: https://spruced-vue.firebaseapp.com/#/#
+- Preview of Web App (front-end) client testing - YouTube link: 
 
 ## Server (back-end) 
 Repository Link:
