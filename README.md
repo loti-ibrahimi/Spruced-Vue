@@ -38,7 +38,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ### This Web App was hosted using Firebase: https://firebase.google.com/ 
 ![alt text](https://github.com/loti-ibrahimi/Spruced-Vue/blob/master/firebase.png) 
 - Spruced - Web App Front-End Link: https://spruced-vue.firebaseapp.com/#/#
-- Preview of Web App (front-end) client testing - YouTube link: https://youtu.be/P-GjZF3qtrY
 
 ## Server (back-end) 
 Repository Link:
